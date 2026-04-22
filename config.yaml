@@ -1,19 +1,16 @@
 raw_dess_dir: data/skm-tea-data/nifti
-raw_pd_dir: data/iu-datasets/nifti
+raw_pd_dir: data/iu-dataset/nifti
 npy_root: data/npy
+manifest_root: data/manifests
 
 plane: sagittal
 image_size: 256
-stack_depth: 3          # 2.5D
+stack_depth: 1
 center_only_label: true
 
-max_dess_subjects: 5    # change to 100 on Big Red
-max_pd_subjects: 5      # change to 100 on Big Red
-
+normalize_percentiles: [1, 99]
 val_ratio: 0.1
 seed: 42
 
-input_nc: 3
-output_nc: 3
-
-train_mode: reggan
+max_dess_subjects: 5
+max_pd_subjects: 5
