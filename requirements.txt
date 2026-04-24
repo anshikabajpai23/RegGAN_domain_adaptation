@@ -1,8 +1,16 @@
-nibabel 
-numpy 
-pandas 
-pyyaml 
+# requirements.txt
+nibabel
+numpy
+pandas
+pyyaml
 pillow
 matplotlib
 torch
 torchvision
+# python -m pip install --upgrade pip wheel
+# python -m pip install --force-reinstall "setuptools<82"
+# python -c "import pkg_resources; print('pkg_resources OK')"
+# python -m pip install --no-build-isolation visdom
+scikit-image
+scipy
+opencv-python
