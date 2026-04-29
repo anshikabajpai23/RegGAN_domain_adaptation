@@ -1,7 +1,8 @@
 *data/
-*requirements.md
 *.DS_Store
 *.gz
 NOTICE.txt
 config1.yaml
 *.venv/
+.gitignore
+*vis_from_bigred/
